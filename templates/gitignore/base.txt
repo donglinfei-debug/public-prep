@@ -1,0 +1,67 @@
+# ===== Environment Variables (NEVER commit) =====
+.env
+.env.*
+.env.local
+.env.production
+.env.development
+.env.staging
+
+# ===== Secrets and Certificates =====
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.cer
+*.crt
+*.der
+credentials.json
+client_secret*.json
+service_account.json
+oauth*.json
+
+# ===== IDE and Editor =====
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.dmg
+*.app
+
+# ===== Logs =====
+*.log
+debug.log
+error.log
+
+# ===== Archives =====
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+
+# ===== Compiled / Cache =====
+*.pyc
+*.pyo
+*.o
+*.obj
+*.class
+*.so
+*.dll
+*.dylib
+
+# ===== Large Binaries =====
+*.exe
+*.msi
+*.dmg
+*.iso

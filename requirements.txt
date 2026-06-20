@@ -1,0 +1,9 @@
+# public-prep - 项目公开预处理工具
+# 核心逻辑仅依赖 Python 标准库，无需额外安装
+#
+# 可选依赖（增强扫描能力）：
+# gitleaks — 专业级密钥扫描（推荐）
+#   install: winget install gitleaks  /  scoop install gitleaks
+#
+# 使用方式：
+#   python main.py --project <项目路径>
