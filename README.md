@@ -177,6 +177,19 @@ Security isn't a one-time task — it's a habit. public-prep makes that habit ea
 
 ---
 
+## 📸 Screenshot Workflow
+
+When processing a project, public-prep can capture screenshots of the running application for the README:
+
+1. **Automated** — the tool runs your project and saves screenshots to `docs/screenshots/`
+2. **Manual supplement** — you can add your own screenshots to the same directory
+3. **Naming convention** — use descriptive filenames (e.g., `main-interface.png`, `result-panel.png`)
+4. **README integration** — screenshots are automatically referenced in the README template
+
+Screenshots make your README more engaging and help users understand your project at a glance.
+
+---
+
 ## 🤝 Contributing
 
 Issues and PRs welcome! See the [open issues](https://github.com/donglinfei-debug/public-prep/issues) for roadmap items.

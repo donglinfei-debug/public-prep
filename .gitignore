@@ -31,6 +31,14 @@ Desktop.ini
 .env
 .env.local
 
+# Secrets and certificates
+*.pem
+*.key
+*.p12
+*.jks
+credentials.json
+client_secret*.json
+
 # Logs
 *.log
 debug.log
