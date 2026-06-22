@@ -117,13 +117,20 @@ public-prep/
 └── REQUIREMENTS_CHECKLIST.md
 ```
 
+## ❓ 常见问题
 
+**能检测哪些类型的密钥？**
+API Key（sk-*、AKIA*）、GitHub Token（ghp_*）、数据库连接串、私钥、密码，以及你在 scan_rules.py 中自定义的模式。
 
----
+**会修改我的源代码吗？**
+只检测和建议修复，不会修改原项目。工具创建的是干净的发布副本。
 
-## 🔍 搜索关键词
+**可以添加自定义扫描规则吗？**
+可以。在 rules/scan_rules.py 中添加正则表达式模式即可。
 
-IBKR 期权自动化交易、Interactive Brokers Python API、期权交易机器人架构、铁鹰策略自动化、SPX 期权交易、IBKR API 连接管理、TWS API Python、IB Gateway 集成、期权链数据批量获取、限价单价格调整、交易风控防抖机制、飞书 Bot 消息推送、钉钉 Webhook 集成、Gmail AI 摘要通知、Google Apps Script 邮件监控、AI 字幕校对、ASR 语音识别、DeepSeek API 集成、阿里云通义听悟 fun-asr、字幕自动生成、Claude Code 规划技能、AI 结构化规划框架、GitHub 公开仓库预处理、开源项目安全清洗、密钥自动检测、公开仓库操作清单
+**支持 macOS/Linux 吗？**
+支持。Python 3.8+ 跨平台。CLI 在 Windows、macOS、Linux 上均可运行。
+
 ## 📄 许可证
 
 MIT © 2026 Ryan Dong
@@ -131,6 +138,23 @@ MIT © 2026 Ryan Dong
 ## 🌟 Star 历史
 
 [![Star History Chart](https://api.star-history.com/svg?repos=donglinfei-debug/public-prep&type=Date)](https://star-history.com/#donglinfei-debug/public-prep&Date)
+
+
+
+## 👤 关于作者
+
+**Ryan Dong** — AI 产品经理 & 全栈开发者
+
+我在 AI 能力与生产级软件之间架桥。工作覆盖全栈：从 AI 驱动的产品功能设计、LLM API 集成，到模块化的后端服务和干净、文档完整的代码交付。
+
+| 角色 | 专注领域 |
+|:-----|:---------|
+| 🧠 **AI 产品经理** | 产品策略、AI 功能设计、Prompt 工程、模型选型 |
+| 💻 **全栈开发者** | Python、FastAPI、Google Apps Script、自动化管线、API 集成 |
+
+本仓库是我个人工具箱的一部分——一个不断增长的、解决实际自动化问题的模块集合。每个项目设计为独立可用、易于集成到更大的系统中。
+
+📬 **donglinfei@gmail.com** — 欢迎商务合作、技术交流和招聘联系。
 
 ## 📬 联系方式
 

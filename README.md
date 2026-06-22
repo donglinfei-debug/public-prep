@@ -124,11 +124,20 @@ public-prep/
 
 
 
----
+## ❓ FAQ
 
-## 🔍 Keywords & Search Terms
+**What kinds of secrets can it detect?**
+API keys (sk-*, AKIA*), GitHub tokens (ghp_*), database connection strings, private keys, passwords, and custom patterns you define in scan_rules.py.
 
-**IBKR options trading automation**, **Interactive Brokers Python API**, **options trading bot architecture**, **Iron Condor strategy automation**, **SPX options trading**, **IBKR API connection management**, **automated options trading system**, **TWS API Python**, **IB Gateway integration**, **options chain data fetching**, **limit order price adjustment**, **trading risk control debounce**, **Feishu bot notification**, **DingTalk webhook integration**, **Gmail AI summary notification**, **Google Apps Script Gmail monitoring**, **AI subtitle proofreading**, **ASR speech recognition**, **DeepSeek API integration**, **Alibaba Cloud fun-asr**, **subtitle generation automation**, **Claude Code planning skill**, **AI structured planning framework**, **GitHub public-prep security scan**, **open source project sanitization**, **secret detection automation**, **public repository checklist**
+**Does it modify my source code?**
+It detects issues and suggests fixes, but it only creates a clean copy — your original project is never modified.
+
+**Can I add custom scan rules?**
+Yes. Add patterns to rules/scan_rules.py. The scanner uses regex-based matching, so any pattern you can express as a regex can be added.
+
+**Does this run on macOS/Linux?**
+Yes. Python 3.8+ cross-platform. The CLI works on Windows, macOS, and Linux.
+
 ## 📄 License
 
 MIT © 2026 Ryan Dong
@@ -136,6 +145,23 @@ MIT © 2026 Ryan Dong
 ## 🌟 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=donglinfei-debug/public-prep&type=Date)](https://star-history.com/#donglinfei-debug/public-prep&Date)
+
+
+
+## 👤 About the Author
+
+**Ryan Dong** — AI Product Manager & Full-Stack Developer
+
+I bridge the gap between AI capabilities and production-ready software. My work spans the full stack: from designing AI-powered product features and integrating LLM APIs, to building modular backend services and shipping clean, documented code.
+
+| Role | Focus |
+|:-----|:------|
+| 🧠 **AI Product Manager** | Product strategy, AI feature design, prompt engineering, model selection |
+| 💻 **Full-Stack Developer** | Python, FastAPI, Google Apps Script, automation pipelines, API integration |
+
+This repository is part of a personal toolbox — a growing collection of practical, reusable modules that solve real automation problems. Each project is designed to be independently useful and easily integrated into larger systems.
+
+📬 **donglinfei@gmail.com** — open to business discussions, collaborations, and recruiting inquiries.
 
 ## 📬 Contact
 
