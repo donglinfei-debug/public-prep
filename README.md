@@ -19,6 +19,21 @@
 
 Your pre-flight checklist before publishing a project to GitHub, **automated**. Scans for secrets, removes local paths, generates `.env.example`/`.gitignore`/`LICENSE`/`README`, and creates a clean copy ready to push.
 
+
+## 📌 Why This?
+
+You built something cool. It runs on your machine. Now you want to share it on GitHub.
+
+But then doubt creeps in:
+
+> *"Did I leave any API keys in the code?"*
+> *"Is my config.py still hardcoding the database password?"*
+> *"What if I accidentally commit .env?"*
+> *"Will other people even know how to run this?"*
+> *"Do I need a LICENSE? A .gitignore? How do I even start?"*
+
+**public-prep** is your automated pre-flight checklist. It scans for secrets, removes local paths, generates the missing files (.env.example, .gitignore, LICENSE, README), and creates a clean copy ready to push — so you can publish with confidence, not doubt.
+
 ## 🏗️ Architecture
 
 ```mermaid
@@ -107,6 +122,13 @@ public-prep/
 └── REQUIREMENTS_CHECKLIST.md
 ```
 
+
+
+---
+
+## 🔍 Keywords & Search Terms
+
+**IBKR options trading automation**, **Interactive Brokers Python API**, **options trading bot architecture**, **Iron Condor strategy automation**, **SPX options trading**, **IBKR API connection management**, **automated options trading system**, **TWS API Python**, **IB Gateway integration**, **options chain data fetching**, **limit order price adjustment**, **trading risk control debounce**, **Feishu bot notification**, **DingTalk webhook integration**, **Gmail AI summary notification**, **Google Apps Script Gmail monitoring**, **AI subtitle proofreading**, **ASR speech recognition**, **DeepSeek API integration**, **Alibaba Cloud fun-asr**, **subtitle generation automation**, **Claude Code planning skill**, **AI structured planning framework**, **GitHub public-prep security scan**, **open source project sanitization**, **secret detection automation**, **public repository checklist**
 ## 📄 License
 
 MIT © 2026 Ryan Dong

@@ -19,6 +19,21 @@
 
 项目公开前的一站式预处理工具。自动扫描密钥泄露、清理本地路径、生成 `.env.example` / `.gitignore` / LICENSE / README，创建干净的发布副本。
 
+
+## 📌 为什么需要这个工具？
+
+你写了一个很棒的工具。本地跑得好好的。现在想把它发布到 GitHub。
+
+但到了真要公开的时候，心里开始打鼓：
+
+> *"代码里有没有残留的 API Key？"*
+> *"config.py 是不是还在硬编码数据库密码？"*
+> *"万一不小心把 .env 提交了怎么办？"*
+> *"别人拿到代码知道怎么跑吗？"*
+> *"要不要 LICENSE？.gitignore 怎么写？从哪里开始？"*
+
+**public-prep** 是你的自动化发布前置检查清单。扫描密钥、清理路径、生成缺失文件（.env.example / .gitignore / LICENSE / README）、创建干净的发布副本——让你安心公开，不再纠结。
+
 ## 🏗️ 架构示意
 
 ```mermaid
@@ -102,6 +117,13 @@ public-prep/
 └── REQUIREMENTS_CHECKLIST.md
 ```
 
+
+
+---
+
+## 🔍 搜索关键词
+
+IBKR 期权自动化交易、Interactive Brokers Python API、期权交易机器人架构、铁鹰策略自动化、SPX 期权交易、IBKR API 连接管理、TWS API Python、IB Gateway 集成、期权链数据批量获取、限价单价格调整、交易风控防抖机制、飞书 Bot 消息推送、钉钉 Webhook 集成、Gmail AI 摘要通知、Google Apps Script 邮件监控、AI 字幕校对、ASR 语音识别、DeepSeek API 集成、阿里云通义听悟 fun-asr、字幕自动生成、Claude Code 规划技能、AI 结构化规划框架、GitHub 公开仓库预处理、开源项目安全清洗、密钥自动检测、公开仓库操作清单
 ## 📄 许可证
 
 MIT © 2026 Ryan Dong
